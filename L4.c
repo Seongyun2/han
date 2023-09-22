@@ -24,7 +24,6 @@ int main() {
             printf("%d%% 진행.. ", progress_percent);
             printf("원주율 : %f ", (double)inside_circle / total_points * 4);
 
-            // Print the progress bar
             printf("■");
             for(int j=1; j<=progress_percent/5; j++){
                 printf("■");
